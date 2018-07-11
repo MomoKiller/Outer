@@ -1,0 +1,63 @@
+.main{
+    background: url(../img/data_bg.png) no-repeat;
+    min-width: 1200px;
+    height: 100%;
+    position: relative;
+}
+.main .login_box{
+    width: 700px;
+    height: 650px;
+    /*margin: 0 auto;*/
+    /*background-color: #00a0e8;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.main .login_box .logo{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.main .login_box .uer_name{
+    border: 0;
+    background-color: transparent;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #58768b;
+    width: 530px;
+    outline: none;
+    padding-left: 100px;
+}
+.main .login_box .password{
+    border: 0;
+    background-color: transparent;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #58768b;
+    width: 530px;
+    outline: none;
+    padding-left: 100px;
+}
+.main .login_box .login_wrap{
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+.main .login_box .login_wrap .login_btn{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 25px 125px;
+    background-color: #00a0e8;
+    border-radius: 3px;
+}
+.main .login_box .register_wrap span{
+
+}
+.main .login_box .register_wrap span a{
+
+}
+

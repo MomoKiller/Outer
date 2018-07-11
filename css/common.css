@@ -1,0 +1,13 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+.box_hidden{
+    display: none;
+}
