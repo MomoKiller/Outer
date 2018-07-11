@@ -62,5 +62,6 @@
 }
 .main .login_box .register_wrap span a{
     color: #00a0e8;
+    cursor: pointer;
 }
 
