@@ -45,12 +45,12 @@
 }
 .main .login_box .uer_name{
     /* 设置图片 */
-    background: url(../img/user.png) no-repeat;
+    background: url(../icon/web_icon/user.png) no-repeat;
     background-position: 25px 0;
 }
 .main .login_box .password{
     /* 设置图片 */
-    background: url(../img/user.png) no-repeat;
+    background: url(../icon/web_icon/password.png) no-repeat;
     background-position: 25px 0;
 }
 .main .login_box .login_wrap{
@@ -121,16 +121,36 @@
     border: 0;
     margin-top: 25px;
     outline: none;
-
-    background: url(../img/user.png) no-repeat;
+}
+.main .register_box .user_name{
+    background: url(../icon/web_icon/user.png) no-repeat;
     background-position: 25px 0px;
 }
-
+.main .register_box .password{
+    background: url(../icon/web_icon/password.png) no-repeat;
+    background-position: 25px 0px;
+}
+.main .register_box .phone{
+    background: url(../icon/web_icon/phone.png) no-repeat;
+    background-position: 25px 0px;
+}
 .main .register_box input.ver_code{
     width: 390px;
+    background: url(../icon/web_icon/identyCode.png) no-repeat;
+    background-position: 25px 0px;
 }
 .main .register_box input.address{
     width: 390px;
+    background: url(../icon/web_icon/address.png) no-repeat;
+    background-position: 25px 0px;
+}
+.main .register_box .com_address{
+    background: url(../icon/web_icon/address.png) no-repeat;
+    background-position: 25px 0px;
+}
+.main .register_box .job{
+    background: url(../icon/web_icon/job.png) no-repeat;
+    background-position: 25px 0px;
 }
 .main .register_box .input_wrap .send_btn{
     color: #00a0e8;
@@ -152,7 +172,7 @@
     width: 40px;
     margin: 20px 5px 0;
     cursor: pointer;
-    background: url(../img/drop.png) no-repeat;
+    background: url(../icon/web_icon/drop.png) no-repeat;
 }
 .main .register_box .register_wrap{
     height: 100px;

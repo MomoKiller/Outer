@@ -11,7 +11,11 @@ $(function(){
         },
         // 登录
         login: function () {
-
+            $('.login_btn').bind('click',function(){
+                confirmBox('文本测试',function(){
+                    alert(1);
+                });
+            });
         },
         // 去注册
         toRegister: function(){
