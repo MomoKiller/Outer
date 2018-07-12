@@ -22,25 +22,35 @@
     font-weight: bold;
     margin-bottom: 50px;
 }
-.main .login_box input{
-    border: 0;
-    background-color: transparent;
+.main .login_box .input_wrap{
     height: 70px;
     line-height: 70px;
     border-bottom: 1px solid #58768b;
-    width: 530px;
-    outline: none;
-    padding-left: 100px;
+    width: 630px;
     margin-left: 10px;
-    color: #ffffff;
     font-size: 25px;
     float: left;
 }
+.main .login_box input{
+    background-color: transparent;
+    font-size: 25px;
+    color: #ffffff;
+    height: 40px;
+    width: 530px;
+    padding-left: 100px;
+    border: 0;
+    margin-top: 25px;
+    outline: none;
+}
 .main .login_box .uer_name{
     /* 设置图片 */
+    background: url(../img/user.png) no-repeat;
+    background-position: 25px 0;
 }
 .main .login_box .password{
     /* 设置图片 */
+    background: url(../img/user.png) no-repeat;
+    background-position: 25px 0;
 }
 .main .login_box .login_wrap{
     height: 100px;
@@ -91,19 +101,57 @@
     font-weight: bold;
     margin-bottom: 40px;
 }
-.main .register_box input{
-    border: 0;
-    background-color: transparent;
+.main .register_box .input_wrap{
     height: 70px;
     line-height: 70px;
     border-bottom: 1px solid #58768b;
-    width: 530px;
-    outline: none;
-    padding-left: 100px;
+    width: 630px;
     margin-left: 10px;
-    color: #ffffff;
     font-size: 25px;
     float: left;
+}
+.main .register_box input{
+    background-color: transparent;
+    font-size: 25px;
+    color: #ffffff;
+    height: 40px;
+    width: 530px;
+    padding-left: 100px;
+    border: 0;
+    margin-top: 25px;
+    outline: none;
+
+    background: url(../img/user.png) no-repeat;
+    background-position: 25px 0px;
+}
+
+.main .register_box input.ver_code{
+    width: 390px;
+}
+.main .register_box input.address{
+    width: 390px;
+}
+.main .register_box .input_wrap .send_btn{
+    color: #00a0e8;
+    font-size: 20px;
+    text-align: right;
+    width: 130px;
+    display: block;
+    float: right;
+    border-left: 2px solid #58768b;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.main .register_box .input_wrap .add_btn{
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 20px 5px 0;
+    cursor: pointer;
+    background: url(../img/drop.png) no-repeat;
 }
 .main .register_box .register_wrap{
     height: 100px;
@@ -136,4 +184,30 @@
 .main .register_box .login_wrap span a{
     color: #00a0e8;
     cursor: pointer;
+}
+
+
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color: #a3a6aa;
+}
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color:#a3a6aa;
+}
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color:#a3a6aa;
+}
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color:#a3a6aa;
 }

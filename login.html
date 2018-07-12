@@ -16,8 +16,12 @@
         <!--  登陆  -->
         <div class="login_box">
             <div class="logo">LOGO</div>
-            <input id="userName" class="uer_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
-            <input id="password" class="password" type="password" placeholder="请输入您的密码"/>
+            <div class="input_wrap">
+                <input id="userName" class="uer_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="password" class="password" type="password" placeholder="请输入您的密码"/>
+            </div>
             <div class="login_wrap">
                 <a class="login_btn">登录</a>
             </div>
@@ -29,13 +33,30 @@
         <!--  注册  -->
         <div class="register_box box_hidden">
             <div class="logo">LOGO</div>
-            <input id="rUserName" class="user_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
-            <input id="rPassword" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
-            <input id="rPhone" class="phone" type="text" placeholder="" value="" autocomplete="off"/>
-            <input id="rvCode" class="ver_code" type="text" placeholder="请输入验证码" autocomplete="off"/>
-            <input class="address" type="text" placeholder="" value="上海" autocomplete="off"/>
-            <input id="comAddress" class="com_address" type="text" placeholder="请输入您的公司地址" autocomplete="off"/>
-            <input id="rJob" class="job" type="text" placeholder="请输入您的职位" autocomplete="off"/>
+            <div class="input_wrap">
+                <input id="rUserName" class="user_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rPassword" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rPhone" class="phone" type="text" placeholder="" value="" autocomplete="off"/>
+                <a class="phone_btn"></a>
+            </div>
+            <div class="input_wrap">
+                <input id="rvCode" class="ver_code" type="text" placeholder="请输入验证码" autocomplete="off"/>
+                <a class="send_btn">发送验证码</a>
+            </div>
+            <div class="input_wrap">
+                <input class="address" type="text" placeholder="" value="上海" autocomplete="off" readonly/>
+                <a class="add_btn"></a>
+            </div>
+            <div class="input_wrap">
+                <input id="comAddress" class="com_address" type="text" placeholder="请输入您的公司地址" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rJob" class="job" type="text" placeholder="请输入您的职位" autocomplete="off"/>
+            </div>
             <div class="register_wrap">
                 <a class="register_btn">注册</a>
             </div>
