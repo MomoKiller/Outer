@@ -6,6 +6,7 @@
     min-height: 800px;
     min-width: 1200px;
     position: relative;
+    overflow: hidden; /* IE兼容 */
 }
 .main .login_box{
     width: 650px;
