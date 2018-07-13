@@ -3,14 +3,16 @@
     background-position: center center;
     background-color: #000000;
     height: 100%;
-    min-height: 800px;
-    min-width: 1200px;
+    /*min-height: 570px;*/
+    /*min-width: 1200px;*/
+    min-height: 600px;
+    min-width: 900px;
     position: relative;
     overflow: hidden; /* IE兼容 */
 }
 .main .login_box{
-    width: 650px;
-    height: 550px;
+    width: 470px;
+    height: 400px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -18,54 +20,56 @@
 }
 .main .login_box .logo{
     color: #ffffff;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .main .login_box .input_wrap{
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     border-bottom: 1px solid #58768b;
-    width: 630px;
+    width: 450px;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 18px;
     float: left;
 }
 .main .login_box input{
     background-color: transparent;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffff;
-    height: 40px;
-    width: 530px;
-    padding-left: 100px;
+    height: 30px;
+    width: 380px;
+    padding-left: 70px;
     border: 0;
-    margin-top: 25px;
+    margin-top: 18px;
     outline: none;
 }
 .main .login_box .uer_name{
     /* 设置图片 */
     background: url(../icon/web_icon/user.png) no-repeat;
-    background-position: 25px 0;
+    background-position: 18px 0;
+    background-size: 30px 30px;
 }
 .main .login_box .password{
     /* 设置图片 */
     background: url(../icon/web_icon/password.png) no-repeat;
-    background-position: 25px 0;
+    background-position: 18px 0;
+    background-size: 30px 30px;
 }
 .main .login_box .login_wrap{
-    height: 100px;
-    line-height: 100px;
-    margin: 100px auto 0;
+    height: 70px;
+    line-height: 70px;
+    margin: 70px auto 0;
     text-align: center;
     float: left;
     width: 100%;
 }
 .main .login_box .login_wrap .login_btn{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
-    padding: 25px 125px;
+    padding: 18px 90px;
     background-color: #00a0e8;
     border-radius: 3px;
     cursor: pointer;
@@ -74,9 +78,9 @@
     text-align: center;
     width: 100%;
     float: left;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
 }
 .main .login_box .register_wrap span{
     color: #ffffff;
@@ -88,8 +92,8 @@
 
 /* 注册 */
 .main .register_box{
-    width: 650px;
-    height: 800px;
+    width: 470px;
+    height: 580px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -97,96 +101,108 @@
 }
 .main .register_box .logo{
     color: #ffffff;
-    font-size: 60px;
+    font-size: 42px;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .main .register_box .input_wrap{
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     border-bottom: 1px solid #58768b;
-    width: 630px;
+    width: 450px;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 18px;
     float: left;
 }
 .main .register_box input{
     background-color: transparent;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffff;
-    height: 40px;
-    width: 530px;
-    padding-left: 100px;
+    height: 30px;
+    width: 380px;
+    padding-left: 70px;
     border: 0;
-    margin-top: 25px;
+    margin-top: 18px;
     outline: none;
 }
 .main .register_box .user_name{
     background: url(../icon/web_icon/user.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box .password{
     background: url(../icon/web_icon/password.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box .phone{
     background: url(../icon/web_icon/phone.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box input.ver_code{
-    width: 390px;
+    width: 280px;
     background: url(../icon/web_icon/identyCode.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box input.address{
-    width: 390px;
-    background: url(../icon/web_icon/address.png) no-repeat;
-    background-position: 25px 0px;
+    width: 280px;
+    background: url(../icon/web_icon/city.png) no-repeat;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box .com_address{
     background: url(../icon/web_icon/address.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box .job{
     background: url(../icon/web_icon/job.png) no-repeat;
-    background-position: 25px 0px;
+    background-position: 18px 0px;
+    background-size: 30px 30px;
 }
 .main .register_box .input_wrap .send_btn{
     color: #00a0e8;
-    font-size: 20px;
+    font-size: 14px;
     text-align: right;
-    width: 130px;
+    width: 95px;
     display: block;
     float: right;
     border-left: 2px solid #58768b;
-    height: 20px;
-    line-height: 20px;
-    margin-top: 35px;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 25px;
     cursor: pointer;
 }
 .main .register_box .input_wrap .add_btn{
     display: block;
     float: right;
-    height: 40px;
-    width: 40px;
-    margin: 20px 5px 0;
+    height: 30px;
+    width: 30px;
+    margin: 14px 3px 0;
     cursor: pointer;
     background: url(../icon/web_icon/drop.png) no-repeat;
+    background-size: 30px 30px;
+}
+.main .register_box .input_wrap .drop_back{
+    background: url(../icon/web_icon/drop_back.png) no-repeat;
+    background-size: 30px 30px;
 }
 .main .register_box .register_wrap{
-    height: 100px;
-    line-height: 100px;
-    margin: 40px auto 0;
+    height: 70px;
+    line-height: 70px;
+    margin: 30px auto 0;
     text-align: center;
     float: left;
     width: 100%;
 }
 .main .register_box .register_wrap .register_btn{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
-    padding: 25px 125px;
+    padding: 18px 90px;
     background-color: #00a0e8;
     border-radius: 3px;
     cursor: pointer;
@@ -195,9 +211,9 @@
     text-align: center;
     width: 100%;
     float: left;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
 }
 .main .register_box .login_wrap span{
      color: #ffffff;
@@ -231,4 +247,36 @@
 .main .register_box input::-webkit-input-placeholder,
 .main .register_box textarea::-webkit-input-placeholder{
     color:#a3a6aa;
+}
+
+
+/* 下拉框样式 */
+.select_box{
+    z-index: 200;
+    background-color: #FFF;
+    position: absolute;
+    top: 50px;
+    /*width: 380px;*/
+    /*padding-left: 70px;*/
+    width: 100%;
+    border-left: 1px solid #58768b;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    overflow: hidden;
+}
+.select_box ul{
+    margin: 0;
+    padding: 0;
+}
+.select_box ul li{
+    display: block;
+    color: #58768b;
+    height: 50px;
+    line-height: 50px;
+}
+.select_box ul li option{
+    padding-left: 55px;
+    cursor: pointer;
+    border-bottom: 1px dashed;
+    margin: 0 15px;
 }

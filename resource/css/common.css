@@ -11,6 +11,9 @@ html,body{
 .box_hidden{
     display: none;
 }
+.posit_relative{
+    position: relative;
+}
 
 /* 弹框样式 */
 .message_box{
@@ -49,12 +52,15 @@ html,body{
     font-size: 20px;
 }
 .message_box .box_contain .message{
-    padding: 0 20px;
+    padding: 0;
+    margin-bottom: 50px;
 }
 .message_box .box_contain .message p{
     font-size: 15px;
     line-height: 25px;
     color: #000000;
+    padding: 0;
+    margin: 10px 20px;
 }
 .message_box .box_contain .box_close{
     position: absolute;
@@ -93,3 +99,4 @@ html,body{
     opacity: 0.8;
     filter:alpha(opacity=80);
 }
+
