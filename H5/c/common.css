@@ -85,3 +85,6 @@ div.ui-mask{top:0;left:0;background:#888;opacity:.5;z-index:1001;height:100%;wid
 }
 
 /********************* 以上部分为公共样式  ****************************/
+.box_hidden{
+    display: none;
+}
