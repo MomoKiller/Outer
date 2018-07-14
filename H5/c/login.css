@@ -1,6 +1,22 @@
 html,body{
     font-size: 100px;
+    color: #000000;
 }
 .main{
+    /*background: url(../i/background.jpg) no-repeat;*/
+    /*background-position: center center;*/
+    /*width: 100%;*/
+    /*height: 500px;*/
+}
+.main .login_box{
+
+}
+.main .login_box .logo{
+
+}
+.main .login_box .user_wrap{
+
+}
+.main .login_box .password{
 
 }
