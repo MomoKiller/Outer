@@ -280,3 +280,7 @@
     border-bottom: 1px dashed;
     margin: 0 15px;
 }
+/* 登录框/注册框隐藏 */
+.box_hidden{
+    display: none;
+}

@@ -107,3 +107,10 @@ html,body{
     color: #00a0e8;
     cursor: pointer;    /* 兼容ios */
 }
+
+
+
+/* 登录/注册狂隐藏 */
+.box_hidden{
+    display: none;
+}
