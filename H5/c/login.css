@@ -2,21 +2,108 @@ html,body{
     font-size: 100px;
     color: #000000;
 }
+/*三种屏幕进行适配*/
+@media screen and (max-width:320px ) {
+    html,body{font-size: 86px;}
+}
+@media screen and (min-width:321px) and (max-width:750px ) {
+    html{font-size: 100px;}
+}
+@media screen and (min-width:751px ) {
+    html{font-size: 114px;}
+}
 .main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
     /*background: url(../i/background.jpg) no-repeat;*/
-    /*background-position: center center;*/
-    /*width: 100%;*/
-    /*height: 500px;*/
+    background-color: #333333;
+    background-position: center center;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
 }
 .main .login_box{
-
+    width: 80%;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
 .main .login_box .logo{
-
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
 }
 .main .login_box .user_wrap{
-
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-bottom: 1px solid #58768b;
 }
-.main .login_box .password{
-
+.main .login_box input{
+    height: 0.27rem;
+    margin-top: 0.3rem;
+    float: left;
+    font-size: 0.16rem;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #FFFFFF;
+    padding-left: 0.4rem;
+    width:-moz-calc(100% - 0.4rem);
+    width:-webkit-calc(100% - 0.4rem);
+    width: calc(100% - 0.4rem);
+}
+.main .login_box .user_name{
+    background: url(../i/ios_icon/user.png) no-repeat;
+    background-size: 0.25rem;
+}
+.main .login_box .password_wrap{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-bottom: 1px solid #58768b;
+}
+.main .login_box .password_wrap .password{
+    background: url(../i/ios_icon/password.png) no-repeat;
+    background-size: 0.25rem;
+}
+.main .login_box .login_wrap{
+    height: 1rem;
+}
+.main .login_box .login_wrap .login_btn{
+    font-size: 0.18rem;
+    color: #FFFFFF;
+    letter-spacing: 0.05rem;
+    background-color: #00a0e8;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0.16rem 0;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+    float: left;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way{
+    font-size: 0.12rem;
+    color: #a3a6aa;
+    height: 1.5rem;
+}
+.main .login_box .other_way .forget{
+    float: left;
+    margin-top: 1.2rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way .to_register{
+    float: right;
+    margin-top: 1.2rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way .to_register span{
+    color: #00a0e8;
+    cursor: pointer;    /* 兼容ios */
 }
