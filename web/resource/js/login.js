@@ -5,32 +5,24 @@ $(function(){
         },
         init: function(){
             login.login();
-            login.toRegister();
             login.register();
-            login.toLogin();
             login.cityCelect();
         },
-        // 登录
         login: function () {
-            $('.login_btn').bind('click',function(){
+            $('.login_btn').bind('click',function(){    // 登录
                 confirmBox('文本测试',function(){
-                    alert(1);
+
                 });
             });
-        },
-        // 去注册
-        toRegister: function(){
             $('.to_register').bind('click',function(){
                 $('.login_box').addClass('box_hidden');
                 $('.register_box').removeClass('box_hidden');
             });
         },
-        // 注册
         register: function(){
+            $('.register_btn').bind('click', function () {  // 注册
 
-        },
-        // 去登录
-        toLogin: function(){
+            });
             $('.to_login').bind('click',function(){
                 $('.register_box').addClass('box_hidden');
                 $('.login_box').removeClass('box_hidden');
