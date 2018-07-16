@@ -157,25 +157,39 @@ html,body{
 }
 
 .main .register_box .user_wrap .user_name{
-
+    background: url(../i/ios_icon/user.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .password_wrap .password{
-
+    background: url(../i/ios_icon/password.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .phone_wrap .phone{
-
+    background: url(../i/ios_icon/phone.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .identy_code_wrap .identy_code{
-
+    background: url(../i/ios_icon/identy_code.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .city_wrap .city{
-
+    background: url(../i/ios_icon/city.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .com_address_wrap .address{
-
+    background: url(../i/ios_icon/address.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .job_wrap .job{
-
+    background: url(../i/ios_icon/job.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
 }
 .main .register_box .register_wrap{
     height: 1rem;
