@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" CONTENT="-1">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <link href="resource/c/common.css" rel="stylesheet"/>
+    <link href="resource/c/login.css" rel="stylesheet"/>
+    <script src="resource/zepto/zepto.min.js"></script>
+    <script src="resource/j/sha1.js"></script>   <!--  sha算法  -->
+    <script src="resource/j/common.js"></script>
+<body>
+    <div class="main">
+        <!--  登录  -->
+        <div class="login_box">
+            <div class="logo">LOGO</div>
+            <div class="user_wrap">
+                <input id="userName" class="user_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="password_wrap">
+                <input id="password" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
+            </div>
+            <div class="login_wrap">
+                <a class="login_btn">登录</a>
+            </div>
+            <div class="other_way">
+                <a class="forget">忘记密码？</a>
+                <a class="to_register">没有帐号？去<span>注册</span></a>
+            </div>
+        </div>
+        <!--  注册  -->
+        <div class="register_box box_hidden">
+            <div class="logo">LOGO</div>
+            <div class="user_wrap">
+                <input id="rUserName" class="user_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="password_wrap">
+                <input id="rPassword" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
+            </div>
+            <div class="phone_wrap">
+                <input id="rPhone" class="phone" type="text" placeholder="" autocomplete="off" value="中国"/>
+            </div>
+            <div class="identy_code_wrap">
+                <input id="rIdentyCode" class="identy_code" type="text" placeholder="请输入验证码" autocomplete="off"/>
+            </div>
+            <div class="city_wrap">
+                <input id="rCity" class="city" type="text" placeholder="" value="上海" autocomplete="off" readonly/>
+            </div>
+            <div class="com_address_wrap">
+                <input id="rAddress" class="address" type="text" placeholder="请输入您的公司地址" autocomplete="off"/>
+            </div>
+            <div class="job_wrap">
+                <input id="rJob" class="job" type="text" placeholder="请输入您的职位" autocomplete="off"/>
+            </div>
+            <div class="register_wrap">
+                <a class="register_btn">注册</a>
+            </div>
+            <div class="other_wrap">
+                <a class="forget">忘记密码？</a>
+                <a class="to_login">已有帐号？去<span>登录</span></a>
+            </div>
+        </div>
+    </div>
+    <script src="resource/j/login.js"></script>
+</body>
+</html>

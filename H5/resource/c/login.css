@@ -1,0 +1,255 @@
+html,body{
+    font-size: 100px;
+    color: #000000;
+}
+/*三种屏幕进行适配*/
+@media screen and (max-width:320px ) {
+    html,body{font-size: 86px;}
+}
+@media screen and (min-width:321px) and (max-width:750px ) {
+    html{font-size: 100px;}
+}
+@media screen and (min-width:751px ) {
+    html{font-size: 114px;}
+}
+/*三种屏幕进行适配*/
+
+/* 登录/注册狂隐藏 */
+.box_hidden{
+    display: none;
+}
+
+.main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../i/background.png) no-repeat;
+    background-color: #333333;
+    background-position: center center;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+}
+.main .login_box{
+    width: 80%;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.main .login_box .logo{
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    /*height: 2.5rem;*/
+    /*line-height: 2.5rem;*/
+    height: 2.4rem;
+    line-height: 2.7rem;
+}
+.main .login_box input{
+    height: 0.27rem;
+    margin-top: 0.3rem;
+    float: left;
+    font-size: 0.16rem;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #FFFFFF;
+    padding-left: 0.4rem;
+    width:-moz-calc(100% - 0.4rem);
+    width:-webkit-calc(100% - 0.4rem);
+    width: calc(100% - 0.4rem);
+}
+.main .login_box .user_wrap,
+.main .login_box .password_wrap{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-bottom: 0.5px solid #58768b;
+}
+.main .login_box .user_name{
+    background: url(../i/ios_icon/user.png) no-repeat;
+    background-size: 0.25rem;
+}
+.main .login_box .password_wrap .password{
+    background: url(../i/ios_icon/password.png) no-repeat;
+    background-size: 0.25rem;
+}
+.main .login_box .login_wrap{
+    height: 1rem;
+}
+.main .login_box .login_wrap .login_btn{
+    font-size: 0.17rem;
+    color: #FFFFFF;
+    letter-spacing: 0.05rem;
+    background-color: #00a0e8;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0.15rem 0;
+    border-radius: 1px;
+    margin-top: 0.42rem;
+    float: left;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way{
+    font-size: 0.12rem;
+    color: #a3a6aa;
+    height: 1.5rem;
+}
+.main .login_box .other_way .forget{
+    float: left;
+    margin-top: 1.3rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way .to_register{
+    float: right;
+    margin-top: 1.3rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .login_box .other_way .to_register span{
+    color: #00a0e8;
+    cursor: pointer;    /* 兼容ios */
+}
+
+/* 注册 */
+.main .register_box{
+    width: 80%;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.main .register_box .logo{
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    height: 1.7rem;
+    line-height: 1.7rem;
+}
+.main .register_box .user_wrap,
+.main .register_box .password_wrap,
+.main .register_box .phone_wrap,
+.main .register_box .identy_code_wrap,
+.main .register_box .city_wrap,
+.main .register_box .com_address_wrap,
+.main .register_box .job_wrap{
+    height: 0.41rem;
+    line-height: 0.41rem;
+    border-bottom: 0.5px solid #58768b;
+}
+.main .register_box input{
+    height: 0.25rem;
+    margin-top: 0.1rem;
+    float: left;
+    font-size: 0.14rem;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #FFFFFF;
+    padding-left: 0.4rem;
+    width:-moz-calc(100% - 0.4rem);
+    width:-webkit-calc(100% - 0.4rem);
+    width: calc(100% - 0.4rem);
+}
+
+.main .register_box .user_wrap .user_name{
+    background: url(../i/ios_icon/user.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .password_wrap .password{
+    background: url(../i/ios_icon/password.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .phone_wrap .phone{
+    background: url(../i/ios_icon/phone.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .identy_code_wrap .identy_code{
+    background: url(../i/ios_icon/identy_code.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .city_wrap .city{
+    background: url(../i/ios_icon/city.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .com_address_wrap .address{
+    background: url(../i/ios_icon/address.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .job_wrap .job{
+    background: url(../i/ios_icon/job.png) no-repeat;
+    background-size: 0.25rem 0.25rem;
+    background-position-x: 0.05rem;
+}
+.main .register_box .register_wrap{
+    height: 1rem;
+}
+.main .register_box .register_wrap .register_btn{
+    font-size: 0.17rem;
+    color: #FFFFFF;
+    letter-spacing: 0.05rem;
+    background-color: #00a0e8;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0.15rem 0;
+    border-radius: 1px;
+    margin-top: 0.35rem;
+    float: left;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .register_box .other_wrap{
+    font-size: 0.12rem;
+    color: #a3a6aa;
+    height: 0.6rem;
+}
+.main .register_box .other_wrap .forget{
+    float: left;
+    margin-top: 0.4rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .register_box .other_wrap .to_login{
+    float: right;
+    margin-top: 0.4rem;
+    cursor: pointer;    /* 兼容ios */
+}
+.main .register_box .other_wrap .to_login span{
+    color: #00a0e8;
+    cursor: pointer;    /* 兼容ios */
+}
+
+/* placeHolder */
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color: #a3a6aa;
+}
+.main .login_box input:-moz-placeholder ,
+.main .login_box textarea:-moz-placeholder ,
+.main .register_box input:-moz-placeholder ,
+.main .register_box textarea:-moz-placeholder {
+    color:#a3a6aa;
+}
+.main .login_box input::-moz-placeholder ,
+.main .login_box textarea::-moz-placeholder ,
+.main .register_box input::-moz-placeholder ,
+.main .register_box textarea::-moz-placeholder {
+    color:#a3a6aa;
+}
+.main .login_box input:-ms-input-placeholder ,
+.main .login_box textarea:-ms-input-placeholder ,
+.main .register_box input:-ms-input-placeholder ,
+.main .register_box textarea:-ms-input-placeholder {
+    color:#a3a6aa;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登陆</title>
+    <!-- <link href="" rel="icon" type="image/x-iocn"/>
+    <link href="//i2.ulecdn.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="//i2.ulecdn.com/img/favicon.ico" rel="bookmark" type="image/x-icon" /> -->
+    <link href="resource/css/common.css" rel="stylesheet"/>
+    <link href="resource/css/login.css" rel="stylesheet"/>
+    <script src="resource/jquery3.1.1/jquery-3.1.1.min.js"></script>
+    <!--  城市插件  -->
+    <script type="text/javascript" src="resource/jq-city/js/aircity.js"></script>
+    <!--  当前城市  -->
+    <script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="resource/js/common.js"></script>
+</head>
+<body>
+    <div class="main">
+        <!--  登陆  -->
+        <div class="login_box">
+            <div class="logo">LOGO</div>
+            <div class="input_wrap">
+                <input id="userName" class="uer_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="password" class="password" type="password" placeholder="请输入您的密码"/>
+            </div>
+            <div class="login_wrap">
+                <a class="login_btn">登录</a>
+            </div>
+            <div class="register_wrap">
+                <span>没有账号？<a class="to_register">立即注册</a></span>
+            </div>
+        </div>
+
+        <!--  注册  -->
+        <div class="register_box box_hidden">
+            <div class="logo">LOGO</div>
+            <div class="input_wrap">
+                <input id="rUserName" class="user_name" type="text" placeholder="请输入您的用户名" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rPassword" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rCountry" class="country" type="text" value="中国" autocomplete="off"/>
+                <label class="country_label">+86</label>
+                <input id="rPhone" class="phone" type="text" placeholder="" value="" autocomplete="off"/>
+                <a class="phone_btn"></a>
+            </div>
+            <div class="input_wrap">
+                <input id="rvCode" class="ver_code" type="text" placeholder="请输入验证码" autocomplete="off"/>
+                <div class="send_btn_wrap"><a class="send_btn">发送验证码</a></div>
+            </div>
+            <div class="input_wrap" id="address_wrap">
+                <input id="address" class="address" type="text" placeholder="请选择城市" value="" autocomplete="off" />
+                <a class="add_btn"></a>
+            </div>
+            <div class="input_wrap">
+                <input id="comAddress" class="com_address" type="text" placeholder="请输入您的公司地址" autocomplete="off"/>
+            </div>
+            <div class="input_wrap">
+                <input id="rJob" class="job" type="text" placeholder="请输入您的职位" autocomplete="off"/>
+            </div>
+            <div class="register_wrap">
+                <a class="register_btn">注册</a>
+            </div>
+            <div class="login_wrap">
+                <span>已有帐号？<a class="to_login">立即登录</a></span>
+            </div>
+        </div>
+    </div>
+    <script src="resource/js/login.js"></script>
+</body>
