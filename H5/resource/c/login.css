@@ -23,7 +23,7 @@ html,body{
     position: absolute;
     height: 100%;
     width: 100%;
-    /*background: url(../i/background.jpg) no-repeat;*/
+    background: url(../i/background.png) no-repeat;
     background-color: #333333;
     background-position: center center;
     background-size: 100% 100%;
@@ -228,3 +228,28 @@ html,body{
     cursor: pointer;    /* 兼容ios */
 }
 
+/* placeHolder */
+.main .login_box input::-webkit-input-placeholder,
+.main .login_box textarea::-webkit-input-placeholder,
+.main .register_box input::-webkit-input-placeholder,
+.main .register_box textarea::-webkit-input-placeholder{
+    color: #a3a6aa;
+}
+.main .login_box input:-moz-placeholder ,
+.main .login_box textarea:-moz-placeholder ,
+.main .register_box input:-moz-placeholder ,
+.main .register_box textarea:-moz-placeholder {
+    color:#a3a6aa;
+}
+.main .login_box input::-moz-placeholder ,
+.main .login_box textarea::-moz-placeholder ,
+.main .register_box input::-moz-placeholder ,
+.main .register_box textarea::-moz-placeholder {
+    color:#a3a6aa;
+}
+.main .login_box input:-ms-input-placeholder ,
+.main .login_box textarea:-ms-input-placeholder ,
+.main .register_box input:-ms-input-placeholder ,
+.main .register_box textarea:-ms-input-placeholder {
+    color:#a3a6aa;
+}

@@ -29,7 +29,7 @@ $(function(){
                     'userName': userName,
                     'password': hex_sha1(password)
                 };
-                $.getJSON(login.api.login, d, function (data) {
+                $.post(login.api.login, d, function (data) {
                     if(data){
                         location.href = 'index.html';
                     }
@@ -78,7 +78,7 @@ $(function(){
                     'address': address,
                     'job': job
                 };
-                $.getJSON(login.api.register, d, function (data) {
+                $.post(login.api.register, d, function (data) {
                     if(data){
                         // 注册成功
                     }

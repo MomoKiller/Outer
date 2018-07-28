@@ -17,7 +17,7 @@ $.extend(String.prototype, {
         return new RegExp(/^[0-9]*$/).test(this);
     },
     isName: function () {
-        return (new RegExp(/^[a-zA-Z\u4e00-\u9fa5]+$/g).test(this.trim()));
+        return (new RegExp(/^[a-zA-Z\u4e00-\u9fa50-9]+$/g).test(this.trim()));
     },
     isIdcardNew: function () {
         return (new RegExp(/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/).test(this.trim()));

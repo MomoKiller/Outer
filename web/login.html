@@ -9,6 +9,10 @@
     <link href="resource/css/common.css" rel="stylesheet"/>
     <link href="resource/css/login.css" rel="stylesheet"/>
     <script src="resource/jquery3.1.1/jquery-3.1.1.min.js"></script>
+    <!--  城市插件  -->
+    <script type="text/javascript" src="resource/jq-city/js/aircity.js"></script>
+    <!--  当前城市  -->
+    <script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
     <script src="resource/js/common.js"></script>
 </head>
 <body>
@@ -40,22 +44,18 @@
                 <input id="rPassword" class="password" type="password" placeholder="请输入您的密码" autocomplete="off"/>
             </div>
             <div class="input_wrap">
+                <input id="rCountry" class="country" type="text" value="中国" autocomplete="off"/>
+                <label class="country_label">+86</label>
                 <input id="rPhone" class="phone" type="text" placeholder="" value="" autocomplete="off"/>
                 <a class="phone_btn"></a>
             </div>
             <div class="input_wrap">
                 <input id="rvCode" class="ver_code" type="text" placeholder="请输入验证码" autocomplete="off"/>
-                <a class="send_btn">发送验证码</a>
+                <div class="send_btn_wrap"><a class="send_btn">发送验证码</a></div>
             </div>
             <div class="input_wrap" id="address_wrap">
-                <input class="address" type="text" placeholder="" value="上海" autocomplete="off" readonly/>
+                <input id="address" class="address" type="text" placeholder="请选择城市" value="" autocomplete="off" />
                 <a class="add_btn"></a>
-                <!--<div class="select_box city_select">
-                    <ul>
-                        <li><option value="上海">上海</option></li>
-                        <li><option value="北京">北京</option></li>
-                    </ul>
-                </div>-->
             </div>
             <div class="input_wrap">
                 <input id="comAddress" class="com_address" type="text" placeholder="请输入您的公司地址" autocomplete="off"/>

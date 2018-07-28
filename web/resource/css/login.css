@@ -5,7 +5,7 @@
     height: 100%;
     /*min-height: 570px;*/
     /*min-width: 1200px;*/
-    min-height: 600px;
+    min-height: 700px;
     min-width: 900px;
     position: relative;
     overflow: hidden; /* IE兼容 */
@@ -26,8 +26,8 @@
     margin-bottom: 35px;
 }
 .main .login_box .input_wrap{
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #58768b;
     width: 450px;
     margin-left: 10px;
@@ -38,7 +38,8 @@
     background-color: transparent;
     font-size: 18px;
     color: #ffffff;
-    height: 30px;
+    height: 35px;
+    line-height: 35px;
     width: 380px;
     padding-left: 70px;
     border: 0;
@@ -48,14 +49,14 @@
 .main .login_box .uer_name{
     /* 设置图片 */
     background: url(../icon/web_icon/user.png) no-repeat;
-    background-position: 18px 0;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
 .main .login_box .password{
     /* 设置图片 */
     background: url(../icon/web_icon/password.png) no-repeat;
-    background-position: 18px 0;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
 .main .login_box .login_wrap{
     height: 70px;
@@ -107,8 +108,8 @@
     margin-bottom: 30px;
 }
 .main .register_box .input_wrap{
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #58768b;
     width: 450px;
     margin-left: 10px;
@@ -119,7 +120,8 @@
     background-color: transparent;
     font-size: 18px;
     color: #ffffff;
-    height: 30px;
+    height: 35px;
+    line-height: 35px;
     width: 380px;
     padding-left: 70px;
     border: 0;
@@ -128,67 +130,104 @@
 }
 .main .register_box .user_name{
     background: url(../icon/web_icon/user.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
 .main .register_box .password{
     background: url(../icon/web_icon/password.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
+}
+.main .register_box .country{
+    width: 50px;
+    background: url(../icon/web_icon/phone.png) no-repeat;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
+}
+.main .register_box .country_label{
+    color: #FFFFFF;
 }
 .main .register_box .phone{
-    background: url(../icon/web_icon/phone.png) no-repeat;
-    background-position: 18px 0px;
+    /*background: url(../icon/web_icon/phone.png) no-repeat;*/
+    /*background-position: 18px 0px;*/
+    /*background-size: 30px 30px;*/
+    padding: 0;
+    width: 240px;
+}
+.main .register_box .phone_btn{
+    display: block;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin: 20px 3px 0;
+    cursor: pointer;
+    background: url(../icon/web_icon/drop.png) no-repeat;
     background-size: 30px 30px;
 }
-.main .register_box input.ver_code{
+.main .register_box .ver_code{
     width: 280px;
     background: url(../icon/web_icon/identy_code.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
-.main .register_box input.address{
-    width: 280px;
+.main .register_box .address{
+    width: 330px;
     background: url(../icon/web_icon/city.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
 .main .register_box .com_address{
     background: url(../icon/web_icon/address.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
 }
 .main .register_box .job{
     background: url(../icon/web_icon/job.png) no-repeat;
-    background-position: 18px 0px;
-    background-size: 30px 30px;
+    background-position: 20px 5px;
+    background-size: 25px 25px;
+}
+.main .register_box .input_wrap .send_btn_wrap{
+    width: 95px;
+    float: right;
+    height: 20px;
+    margin-top: 25px;
+    border-left: 2px solid #58768b;
 }
 .main .register_box .input_wrap .send_btn{
     color: #00a0e8;
     font-size: 14px;
     text-align: right;
-    width: 95px;
     display: block;
     float: right;
-    border-left: 2px solid #58768b;
-    height: 14px;
-    line-height: 14px;
-    margin-top: 25px;
+    height: 20px;
+    line-height: 20px;
     cursor: pointer;
+}
+/* 发送中 */
+.main .register_box .input_wrap .send_btn.sending{
+    color: #e3e3e3;
+    cursor: unset;
+    background-color: #a3a6aa;
+    padding: 0 5px;
+    border-radius: 3px;
 }
 .main .register_box .input_wrap .add_btn{
     display: block;
     float: right;
     height: 30px;
     width: 30px;
-    margin: 14px 3px 0;
+    margin: 20px 3px 0;
     cursor: pointer;
     background: url(../icon/web_icon/drop.png) no-repeat;
     background-size: 30px 30px;
 }
 .main .register_box .input_wrap .drop_back{
-    background: url(../icon/web_icon/drop_back.png) no-repeat;
+    background: url(../icon/web_icon/drop.png) no-repeat;
     background-size: 30px 30px;
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .main .register_box .register_wrap{
     height: 70px;
@@ -230,39 +269,38 @@
 .main .register_box textarea::-webkit-input-placeholder{
     color: #a3a6aa;
 }
-.main .login_box input::-webkit-input-placeholder,
-.main .login_box textarea::-webkit-input-placeholder,
-.main .register_box input::-webkit-input-placeholder,
-.main .register_box textarea::-webkit-input-placeholder{
+.main .login_box input:-moz-placeholder ,
+.main .login_box textarea:-moz-placeholder ,
+.main .register_box input:-moz-placeholder ,
+.main .register_box textarea:-moz-placeholder {
     color:#a3a6aa;
 }
-.main .login_box input::-webkit-input-placeholder,
-.main .login_box textarea::-webkit-input-placeholder,
-.main .register_box input::-webkit-input-placeholder,
-.main .register_box textarea::-webkit-input-placeholder{
+.main .login_box input::-moz-placeholder ,
+.main .login_box textarea::-moz-placeholder ,
+.main .register_box input::-moz-placeholder ,
+.main .register_box textarea::-moz-placeholder {
     color:#a3a6aa;
 }
-.main .login_box input::-webkit-input-placeholder,
-.main .login_box textarea::-webkit-input-placeholder,
-.main .register_box input::-webkit-input-placeholder,
-.main .register_box textarea::-webkit-input-placeholder{
+.main .login_box input:-ms-input-placeholder ,
+.main .login_box textarea:-ms-input-placeholder ,
+.main .register_box input:-ms-input-placeholder ,
+.main .register_box textarea:-ms-input-placeholder {
     color:#a3a6aa;
 }
-
 
 /* 下拉框样式 */
 .select_box{
     z-index: 200;
     background-color: #FFF;
     position: absolute;
-    top: 50px;
-    /*width: 380px;*/
-    /*padding-left: 70px;*/
-    width: 100%;
+    top: 60px;
+    width: 400px;
     border-left: 1px solid #58768b;
     border-radius: 0 0 5px 5px;
-    display: none;
-    overflow: hidden;
+    overflow: auto;
+    left: 45px;
+    max-height: 300px;
+    padding-bottom: 30px;
 }
 .select_box ul{
     margin: 0;
@@ -271,14 +309,34 @@
 .select_box ul li{
     display: block;
     color: #58768b;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
 }
-.select_box ul li option{
-    padding-left: 55px;
+.select_box ul li a{
+    padding: 0 5px;
     cursor: pointer;
-    border-bottom: 1px dashed;
+    border-bottom: 1px dashed #00a0e8;
     margin: 0 15px;
+    display: block;
+}
+.select_box ul li a:hover{
+    background-color: #e3e3e3;
+}
+.select_box ul li a span{
+    float: right;
+    font-size: 14px;
+    color: #00a0e8;
+}
+.city_mask{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 999;
+    top: 0;
+    left: 0;
 }
 /* 登录框/注册框隐藏 */
 .box_hidden{
